@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T08:14:58.486Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="22.1.21" etag="IO_Gon8HvbzeScWZ5BXM" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T08:54:07.774Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="2UIVNQorp3h6mgfFI9ci" version="22.1.21" type="github">
   <diagram name="Halaman-1" id="CNXdGkV-k3QApEqBhi3C">
-    <mxGraphModel>
+    <mxGraphModel dx="878" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JmpS4Y9Mmfr8R1uDROT--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JmpS4Y9Mmfr8R1uDROT--3" target="JmpS4Y9Mmfr8R1uDROT--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JmpS4Y9Mmfr8R1uDROT--3" value="Pengunjung" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="70" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="JmpS4Y9Mmfr8R1uDROT--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JmpS4Y9Mmfr8R1uDROT--5" target="JmpS4Y9Mmfr8R1uDROT--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JmpS4Y9Mmfr8R1uDROT--5" value="Pustakawan" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="250" width="70" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="JmpS4Y9Mmfr8R1uDROT--7" value="Diagram Perpus Digital" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="267" y="152" width="320" height="488" as="geometry" />
+        </mxCell>
+        <mxCell id="JmpS4Y9Mmfr8R1uDROT--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="JmpS4Y9Mmfr8R1uDROT--7" source="JmpS4Y9Mmfr8R1uDROT--6" target="JmpS4Y9Mmfr8R1uDROT--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JmpS4Y9Mmfr8R1uDROT--6" value="Mengisi data kunjungan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JmpS4Y9Mmfr8R1uDROT--7">
+          <mxGeometry x="103" y="48" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JmpS4Y9Mmfr8R1uDROT--12" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JmpS4Y9Mmfr8R1uDROT--7">
+          <mxGeometry x="103" y="258" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JmpS4Y9Mmfr8R1uDROT--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="JmpS4Y9Mmfr8R1uDROT--7" source="JmpS4Y9Mmfr8R1uDROT--11" target="JmpS4Y9Mmfr8R1uDROT--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JmpS4Y9Mmfr8R1uDROT--11" value="melihat riwayat kunjungan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JmpS4Y9Mmfr8R1uDROT--7">
+          <mxGeometry x="103" y="153" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
